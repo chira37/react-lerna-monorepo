@@ -1,0 +1,20 @@
+0 silly argv {
+0 silly argv   _: [ 'bootstrap' ],
+0 silly argv   hoist: true,
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath D:\informatics\task\monorepo
+3 error JSONError: Unexpected token "}" (0x7D) in JSON at position 941 while parsing near "...o/app-a\" : \"*\",\n    }\n}\n" in packages\base-app\package.json
+3 error
+3 error [0m [90m 30 |[39m         [32m"react-dom"[39m[33m:[39m [32m"^17.0.2"[39m[33m,[39m[0m
+3 error [0m [90m 31 |[39m         [32m"@monorepo/app-a"[39m [33m:[39m [32m"*"[39m[33m,[39m[0m
+3 error [0m[31m[1m>[22m[39m[90m 32 |[39m     }[0m
+3 error [0m [90m    |[39m     [31m[1m^[22m[39m[0m
+3 error [0m [90m 33 |[39m }[0m
+3 error [0m [90m 34 |[39m[0m
+3 error
+3 error     at parseJson (D:\informatics\task\monorepo\node_modules\parse-json\index.js:29:21)
+3 error     at parse (D:\informatics\task\monorepo\node_modules\load-json-file\index.js:15:9)
+3 error     at module.exports (D:\informatics\task\monorepo\node_modules\load-json-file\index.js:18:47)
